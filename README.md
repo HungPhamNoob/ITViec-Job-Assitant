@@ -1,6 +1,11 @@
 # ITViec Job AI Assistant
 
 <p align="center">
+  <img src="assets/logo.png" alt="Demo screenshot 1" width="10%" />
+</p>
+
+
+<p align="center">
   <img src="https://img.shields.io/badge/Python-3.10+-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python badge" />
   <img src="https://img.shields.io/badge/FastAPI-API-009688?style=for-the-badge&logo=fastapi&logoColor=white" alt="FastAPI badge" />
   <img src="https://img.shields.io/badge/FAISS-Vector%20Search-5C2D91?style=for-the-badge" alt="FAISS badge" />
@@ -10,10 +15,6 @@
 
 <p align="center">
   A retrieval-augmented AI job discovery assistant that crawls ITviec listings, builds a local FAISS index, and serves a lightweight chat experience for Vietnamese job search queries.
-</p>
-
-<p align="center">
-  <img src="assets/1.png" alt="Demo screenshot 1" width="100%" />
 </p>
 
 ## Overview
