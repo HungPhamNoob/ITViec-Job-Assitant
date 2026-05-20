@@ -13,8 +13,7 @@
 </p>
 
 <p align="center">
-  <img src="assets/1.png" alt="Demo screenshot 1" width="48%" />
-  <img src="assets/2.png" alt="Demo screenshot 2" width="48%" />
+  <img src="assets/1.png" alt="Demo screenshot 1" width="100%" />
 </p>
 
 ## Overview
