@@ -45,16 +45,6 @@ The current repository data contains:
 - Coverage across major hiring markets in Vietnam, led by `TP Hồ Chí Minh` and `Hà Nội`
 - A prebuilt FAISS index stored in `db/jobs_faiss/`
 
-Representative high-frequency skills in the current dataset include:
-- `AI`
-- `Python`
-- `SQL`
-- `Machine Learning`
-- `LLM`
-- `AWS`
-- `Generative AI`
-- `PyTorch`
-
 ## End-to-End Pipeline
 
 ```mermaid
