@@ -1,0 +1,8 @@
+# Crawl ITviec jobs into the project dataset.
+uv run data/crawl/crawl.py
+
+# Rebuild the FAISS index from the latest CSV file.
+uv run backend/build_faiss.py
+
+# Start the FastAPI application with live reload.
+uv run uvicorn backend.api:app --reload

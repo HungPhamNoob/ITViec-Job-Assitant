@@ -1,0 +1,27 @@
+[project]
+name = "itviec-job-ai-assistant"
+version = "0.1.0"
+description = "A retrieval-augmented IT job assistant built on ITviec job data."
+requires-python = ">=3.10"
+dependencies = [
+    "beautifulsoup4>=4.12.0",
+    "cloudscraper>=1.2.71",
+    "faiss-cpu>=1.8.0",
+    "fastapi>=0.110.0",
+    "langchain>=0.2.0",
+    "langchain-community>=0.2.0",
+    "langchain-deepseek>=1.0.1",
+    "langchain-huggingface>=0.0.3",
+    "lxml>=5.0.0",
+    "pandas>=2.0.0",
+    "python-dotenv>=1.0.0",
+    "requests>=2.31.0",
+    "sentence-transformers>=2.5.0",
+    "uvicorn[standard]>=0.27.0",
+]
+
+[dependency-groups]
+dev = [
+    "ipykernel>=6.29.0",
+    "jupyter>=1.0.0",
+]

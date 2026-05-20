@@ -1,0 +1,33 @@
+# Python caches and virtual environments
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.python-version
+.venv/
+venv/
+
+# Build, packaging, and notebook artifacts
+build/
+dist/
+*.egg-info/
+.ipynb_checkpoints/
+
+# Environment and local configuration
+.env
+.env.*
+!.env.example
+
+# Logs and runtime outputs
+*.log
+response_*.json
+
+# OS and editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Local vector indexes and generated artifacts
+db/jobs_faiss/
+data/itviec_jobs_test.csv
